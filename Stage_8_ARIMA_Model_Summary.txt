@@ -1,0 +1,40 @@
+STAGE 8: ARIMA/SARIMA MODEL DEVELOPMENT
+Adelaide Airport Monthly Rainfall, 1990–2025
+
+Series: rainfall_ts 
+ARIMA(3,0,1)(1,0,0)[12] with non-zero mean 
+
+Coefficients:
+         ar1      ar2      ar3      ma1
+      1.0470  -0.1179  -0.1804  -0.7604
+s.e.  0.0895   0.0758   0.0495   0.0817
+        sar1     mean
+      0.1522  35.2499
+s.e.  0.0540   1.2590
+
+sigma^2 = 547.4:  log likelihood = -1967.58
+AIC=3949.16   AICc=3949.42   BIC=3977.62
+
+
+Full Model Summary:
+Series: rainfall_ts 
+ARIMA(3,0,1)(1,0,0)[12] with non-zero mean 
+
+Coefficients:
+         ar1      ar2      ar3      ma1
+      1.0470  -0.1179  -0.1804  -0.7604
+s.e.  0.0895   0.0758   0.0495   0.0817
+        sar1     mean
+      0.1522  35.2499
+s.e.  0.0540   1.2590
+
+sigma^2 = 547.4:  log likelihood = -1967.58
+AIC=3949.16   AICc=3949.42   BIC=3977.62
+
+Training set error measures:
+                      ME     RMSE      MAE
+Training set -0.02804132 23.23244 18.68966
+              MPE MAPE      MASE
+Training set -Inf  Inf 0.8049264
+                    ACF1
+Training set -0.01334065
